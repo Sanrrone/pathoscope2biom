@@ -1,6 +1,6 @@
 # pathoscope2biom
 ------------------------------
-An script for convert pathoscope2 output in biom format
+An script to convert multiples pathoscope2 output in biom format
 
 ## Requisites
 
