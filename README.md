@@ -1,6 +1,6 @@
 # pathoscope2biom
 ------------------------------
-An script to convert multiples pathoscope2 output in biom format
+An script to convert multiples PathoScope2 output files to biom format
 
 ## Requisites
 
@@ -15,7 +15,7 @@ An script to convert multiples pathoscope2 output in biom format
 	
 ## Usage
 
-	Rscript pathoscope2biom.R [path to pathoscope outputs] [pattern match to that files]
+	Rscript pathoscope2biom.R [path to pathoscope outputs] [matching pattern to files]
 
 	Rscript pathoscope2biom.R ~/Desktop/pathoscope/outpus *.tsv
 	
