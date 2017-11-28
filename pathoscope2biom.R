@@ -81,7 +81,7 @@ for(i in 1:length(tsvs)){
 }
 
 #now we merge all data frames into one
-merged<-tsvs %>% Reduce(function(dtf1,dtf2) left_join(dtf1,dtf2,by="Genome"), .)
+merged<-tsvs %>% Reduce(function(dtf1,dtf2) full_join(dtf1,dtf2,by="Genome"), .)
 
 #replace NA by 0 and then remove the cols that not have any read assigned
 merged[is.na(merged)]<-0
